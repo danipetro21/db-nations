@@ -47,9 +47,7 @@ public class NationManager {
             System.out.println("Errore durante l'esecuzione della query.");
         }
 
-        for (int i = 0; i < listaNazioni.size(); i++) {
-            System.out.println(listaNazioni.get(i).toString());
-        }
+        Nation.jtable(listaNazioni);
 
 
         System.out.print("Scegli l'id di un country: ");
@@ -88,7 +86,7 @@ public class NationManager {
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
-            System.out.println("nonp osdoa");
+            System.out.println("Errore durante l'esecuzione della query.");
         }
 
         System.out.println(stat.toString());

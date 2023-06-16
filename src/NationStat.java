@@ -63,4 +63,5 @@ public class NationStat {
 
         return "Details for country: " + countryName + "\n" + "Languages: " + listaLanguage + "\n" + "Most recent stats" + "\n" + "Year: " + year + "\n" + "Population: " + population + "\n" + "GDB: " + gdb;
     }
+
 }
